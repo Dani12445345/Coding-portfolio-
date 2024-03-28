@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        @media screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+
+            section {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .about-me, .about-text {
+                width: 90%;
+                margin-right: 0;
+            }
+
+            footer {
+                position: static;
+                padding: 10px 0;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.template.net/97316/free-cute-green-aesthetic-background-u8pu8.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            text-shadow: #316a20 0.5px 0.5px 0.5px;
+            background-color: transparent; /* Set header background color to transparent */
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: transparent; /* Set nav background color to transparent */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: all 0.3s ease;
+            background-color: #254e2f;
+        }
+
+        nav a:hover {
+            background-color: #316a20;
+            transition: all 0.3s ease;
+        }
+
+        section {
+            padding: 20px;
+            color: #333;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .about-me, .about-text {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: right;
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+            margin-right: 10px;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Coding Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="context me.html">Contact Me</a> 
+        <a href="My projects.html">My Projects</a>
+    </nav>
+
+    <section id="about">
+        <div class="about-me">
+            <h1>About Me</h1>
+            <p>My background is in Technology Systems Level One at Southern Regional College and Information and Creative Technology. I worked on a lot of projects in these fields.</p>
+            <p>I am driven by my passion for web development where the ever-evolving world of technology excites me. The creative freedom and endless possibilities in coding and designing websites fuel my passion for innovation. With each project I tackle, whether it's front-end design or back-end development, I am constantly learning and growing. The ability to bring ideas to life on the digital canvas and create interactive experiences for users is truly fulfilling.</p>
+        </div>
+        <div class="about-text">
+            <h1>Passionate Web Developer</h1>
+            <p>As a passionate web developer, I am dedicated to building top-notch websites and enhancing user experiences. With a strong background in full-stack development, I strive to deliver innovative solutions that make a difference.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2024 My Portfolio
+    </footer>
+</body>
+
+</html>
